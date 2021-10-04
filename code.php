@@ -4,7 +4,7 @@
 
 <?php
 if(isset($_POST['mail'])) {
-$email_to2      = 'mujemail@gmail.com';
+$email_to      = 'mujemail@gmail.com';
 $sender         = "email2@example.cz";
 $headers        = 'From:' . $sender;
 
