@@ -5,7 +5,7 @@
 <?php
 if(isset($_POST['mail'])) {
 $email_to2      = 'mujemail@gmail.com';
-$sender         = "jakub.cienciala@dispdps.cz";
+$sender         = "email2@example.cz";
 $headers        = 'From:' . $sender;
 
 $email_subject = "Test mail";
